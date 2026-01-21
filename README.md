@@ -107,7 +107,7 @@ This repository contains sanitized configurations. See [SECURITY.md](SECURITY.md
 
 ## Author
 
-**[Your Name]** — Security Engineer  
+**Jason Achkar Diab** — Security Engineer  
 Building this baseline while pursuing AZ-500 certification to demonstrate practical Azure security implementation.
 
 ## License
