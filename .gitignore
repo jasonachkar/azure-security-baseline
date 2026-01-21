@@ -1,0 +1,76 @@
+# =============================================================================
+# Azure Security Baseline - .gitignore
+# =============================================================================
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# Environment files
+.env
+.env.*
+*.env
+
+# Secrets and keys
+*.pem
+*.key
+*.crt
+*.pfx
+*.p12
+secrets/
+credentials/
+
+# Azure CLI
+.azure/
+
+# IDE and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Compiled files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Python (if any scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+.venv/
+
+# Node.js (if any tooling)
+node_modules/
+npm-debug.log
+
+# Local overrides
+local.tf
+local.tfvars
+*.local.*
